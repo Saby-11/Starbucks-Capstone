@@ -1,4 +1,4 @@
-# Starbucks Capstoone Project
+# Starbucks Capstone Project
 ## Introduction:
 This project is part of the Udacity Capstone Challenge and the given data set contains simulated data that mimics customer behaviour on the Starbucks rewards mobile app.
 
@@ -25,6 +25,12 @@ There is a notebook available to showcase work related to the above questions an
 1. portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)
 2. profile.json - demographic data for each customer
 3. transcript.json - records for transactions, offers received, offers viewed, and offers completed
+
+## Conclusion
+1. I saw that for all the models the top 3 variables were all same that included: Membership tenure, Income and Age.
+2. The decision to use 3 separate models to predict the effectiveness of each offer type ended up with good accuracy for the Bogo and discount models (82.83% for Bogo and 87.35% for discount), while slightly less accurate performance for informational offers (75.3%). 
+
+A detailed analysis of the findings can be found in this [blog](https://medium.com/@saurabh11iiitu/exploring-ways-to-send-starbucks-offers-in-an-effective-way-3d9afb0ad997)
 
 ## Acknowledgement:
 1. Dataset provided by [Starbucks](www.starbucks.com).
